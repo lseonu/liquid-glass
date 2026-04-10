@@ -13,16 +13,18 @@ This directory is managed by Santai.
 
 The `resources/` directory contains design system documentation:
 
+> **⚠️ Primary Source: [general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]]) is the most authoritative design reference. When making any design decision, consult this document first. If guidance conflicts between documents, `general-design-guidelines.md` takes precedence.**
+
 | Document | Description |
 |----------|-------------|
+| **[general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]])** | **🔑 PRIMARY — Core design principles, philosophy, and visual system. This is the source of truth for all design decisions.** |
 | [liquid-glass-design-system.md](resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) | Apple Liquid Glass implementation guide with CSS tokens, component patterns, and accessibility guidelines |
-| [general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]]) | Core design principles and philosophy |
 | [quick-reference.md](resources/quick-reference.md) ([[quick-reference]]) | Condensed cheat sheet for common patterns and tokens |
 | [color-palette.md](resources/color-palette.md) ([[color-palette]]) | Complete color system documentation |
 | [spacing-system.md](resources/spacing-system.md) ([[spacing-system]]) | Spacing scale and layout conventions |
 | [component-patterns.md](resources/component-patterns.md) ([[component-patterns]]) | Ready-to-use code snippets for components |
 
-These documents serve as the authoritative reference for the Santai UI/UX design system.
+These documents serve as the authoritative reference for the Santai UI/UX design system. **Always start with `general-design-guidelines.md` — it defines the overarching principles that all other documents support and elaborate on.**
 
 ### Codebase References
 
