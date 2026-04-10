@@ -15,12 +15,12 @@ The `resources/` directory contains design system documentation:
 
 | Document | Description |
 |----------|-------------|
-| `liquid-glass-design-system.md` | Apple Liquid Glass implementation guide with CSS tokens, component patterns, and accessibility guidelines |
-| `general-design-guidelines.md` | Core design principles and philosophy |
-| `quick-reference.md` | Condensed cheat sheet for common patterns and tokens |
-| `color-palette.md` | Complete color system documentation |
-| `spacing-system.md` | Spacing scale and layout conventions |
-| `component-patterns.md` | Ready-to-use code snippets for components |
+| [liquid-glass-design-system.md](resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) | Apple Liquid Glass implementation guide with CSS tokens, component patterns, and accessibility guidelines |
+| [general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]]) | Core design principles and philosophy |
+| [quick-reference.md](resources/quick-reference.md) ([[quick-reference]]) | Condensed cheat sheet for common patterns and tokens |
+| [color-palette.md](resources/color-palette.md) ([[color-palette]]) | Complete color system documentation |
+| [spacing-system.md](resources/spacing-system.md) ([[spacing-system]]) | Spacing scale and layout conventions |
+| [component-patterns.md](resources/component-patterns.md) ([[component-patterns]]) | Ready-to-use code snippets for components |
 
 These documents serve as the authoritative reference for the Santai UI/UX design system.
 
@@ -28,7 +28,7 @@ These documents serve as the authoritative reference for the Santai UI/UX design
 
 The `codebases/` directory contains references to implementations:
 
-- `mockup.md` - Reference to `/home/ubuntu/mockup/` containing the working Liquid Glass implementation
+- [mockup.md](codebases/mockup.md) ([[mockup]]) - Reference to `/home/ubuntu/mockup/` containing the working Liquid Glass implementation
 
 ## Pre-commit Hooks
 

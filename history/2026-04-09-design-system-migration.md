@@ -54,8 +54,8 @@ Component-level implementation patterns including:
 
 Created in `liquid-glass/resources/`:
 
-1. `liquid-glass-design-system.md` - Comprehensive Liquid Glass implementation guide
-2. `general-design-guidelines.md` - Core design principles and philosophy
+1. [liquid-glass-design-system.md](../resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) - Comprehensive Liquid Glass implementation guide
+2. [general-design-guidelines.md](../resources/general-design-guidelines.md) ([[general-design-guidelines]]) - Core design principles and philosophy
 
 ## Why This Migration
 
@@ -87,3 +87,11 @@ The `mockup/` directory at `/home/ubuntu/mockup/` contains the working implement
 ## Notes
 
 The implementation in `mockup/` serves as the canonical reference for how these design patterns should be implemented. The documentation in `liquid-glass/resources/` captures the "why" and "what" while the code captures the "how".
+
+## See Also
+
+- [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]) — Working implementation reference
+- [Quick Reference](../resources/quick-reference.md) ([[quick-reference]]) — Common patterns cheat sheet
+- [Color Palette](../resources/color-palette.md) ([[color-palette]]) — Color system
+- [Spacing System](../resources/spacing-system.md) ([[spacing-system]]) — Spacing scale and layout
+- [Component Patterns](../resources/component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets

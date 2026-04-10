@@ -95,3 +95,11 @@ NSButton.BezelStyle.glass
 - SwiftUI docs: `Applying Liquid Glass to custom views`
 - HIG: Human Interface Guidelines for Liquid Glass
 - Landmarks sample app: Demonstrates Liquid Glass implementation
+
+## See Also
+
+- [Liquid Glass Design System](../resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Santai's CSS implementation of Liquid Glass
+- [General Design Guidelines](../resources/general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Quick Reference](../resources/quick-reference.md) ([[quick-reference]]) — Common patterns cheat sheet
+- [Component Patterns](../resources/component-patterns.md) ([[component-patterns]]) — Ready-to-use CSS code snippets
+- [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]) — Working implementation reference

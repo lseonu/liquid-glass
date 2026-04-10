@@ -1,1 +1,1 @@
-See [AGENTS.md](AGENTS.md) for project structure and conventions.
+See [AGENTS.md](AGENTS.md) ([[AGENTS]]) for project structure and conventions.

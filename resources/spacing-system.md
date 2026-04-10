@@ -117,3 +117,11 @@ Between floating glass layers: `12px`
   gap: var(--space-2);  /* 8px between icon and label */
 }
 ```
+
+## See Also
+
+- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all CSS tokens
+- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet
+- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system
+- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets

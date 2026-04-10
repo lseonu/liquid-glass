@@ -242,3 +242,14 @@ Design guidelines for Santai — AI Creation Platform.
 If the interface feels busier than necessary, simplify it.
 If it looks clever but not obvious, simplify it.
 If it would confuse a first-time user, simplify it.
+
+---
+
+## See Also
+
+- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full Liquid Glass implementation guide
+- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet for common patterns
+- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system documentation
+- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
+- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets
+- [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]) — Working implementation reference

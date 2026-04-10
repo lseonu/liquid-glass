@@ -118,3 +118,11 @@ The Liquid Glass design works best with a light background. For dark mode:
 - Use `rgba(0, 0, 0, 0.4)` or similar for glass surface
 - Maintain high contrast for text
 - Reduce highlight intensity
+
+## See Also
+
+- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all CSS tokens
+- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet
+- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
+- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets

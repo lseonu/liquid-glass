@@ -1,6 +1,6 @@
 # Component Patterns
 
-Ready-to-use code snippets for common Liquid Glass components.
+Ready-to-use code snippets for common Liquid Glass components. For full design system details, see [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]).
 
 ## Glass Card
 
@@ -375,3 +375,12 @@ Ready-to-use code snippets for common Liquid Glass components.
   30% { transform: translateY(-4px); opacity: 1; }
 }
 ```
+
+## See Also
+
+- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all CSS tokens
+- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet
+- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system
+- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
+- [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]) — Working implementation reference

@@ -107,3 +107,11 @@ padding: 10px 24px;
 - ❌ Sharp corners
 - ❌ Opaque surfaces
 - ❌ Flat shadows
+
+## See Also
+
+- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all tokens
+- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system
+- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
+- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets

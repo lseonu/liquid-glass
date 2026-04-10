@@ -73,6 +73,16 @@ This codebase serves as the **implementation reference** for the Liquid Glass de
 
 The design documentation in `liquid-glass/resources/` captures the principles and patterns; this mockup shows them in action.
 
+## Related Documentation
+
+- [Liquid Glass Design System](../resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full design system guide
+- [General Design Guidelines](../resources/general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
+- [Quick Reference](../resources/quick-reference.md) ([[quick-reference]]) — Common patterns cheat sheet
+- [Color Palette](../resources/color-palette.md) ([[color-palette]]) — Color system
+- [Spacing System](../resources/spacing-system.md) ([[spacing-system]]) — Spacing scale and layout
+- [Component Patterns](../resources/component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets
+- [Design System Migration](../history/2026-04-09-design-system-migration.md) ([[2026-04-09-design-system-migration]]) — Migration history
+
 ## Status
 
 Active development - design system is being refined through implementation.

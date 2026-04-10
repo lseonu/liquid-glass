@@ -4,7 +4,7 @@ Design system documentation for Santai's implementation of Apple's Liquid Glass 
 
 ## Source Reference
 
-This documentation is derived from the `mockup/` codebase at `/home/ubuntu/mockup/`, which contains the working implementation.
+This documentation is derived from the `mockup/` codebase at `/home/ubuntu/mockup/`, which contains the working implementation. See [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]).
 
 ## Overview
 
@@ -384,3 +384,16 @@ From `DESIGN_GUIDELINES.md`:
 - The interface should feel **approachable, not technical or harsh**
 - Use soft edges, balanced spacing, and readable typography
 - Favor **calm confidence** over flashy design
+
+---
+
+## See Also
+
+- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles and philosophy
+- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet for common patterns
+- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system documentation
+- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
+- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets
+- [Mockup Codebase Reference](../codebases/mockup.md) ([[mockup]]) — Working implementation reference
+- [Apple Liquid Glass Adoption Guide](../notes/apple-liquid-glass-adoption-guide.md) ([[apple-liquid-glass-adoption-guide]]) — Native platform adoption notes
+- [Design System Migration](../history/2026-04-09-design-system-migration.md) ([[2026-04-09-design-system-migration]]) — Migration history
