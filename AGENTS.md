@@ -1,36 +1,116 @@
 # Santai Project
 
-This directory is managed by Santai.
+This directory is managed by Santai. It contains the Liquid Glass design system knowledge base.
 
 ## Directory Structure
 
-- **resources/** - Reference materials including markdown files, PDFs, images, and other documents
-- **codebases/** - Code repositories and references
-- **history/** - Markdown documentation of major changes and decisions (supplements git history)
-- **notes/** - General notes, scratch space, and quick thoughts
+```
+liquid-glass/
+├── design/                    # Design system documentation
+│   ├── principles/            # Core design philosophy
+│   │   ├── index.md          # General design principles
+│   │   └── liquid-glass.md   # Liquid Glass specific principles
+│   ├── tokens/               # CSS tokens and variables
+│   │   ├── colors.md        # Color system
+│   │   ├── glass.md         # Glass-specific tokens (blur, shadows)
+│   │   ├── spacing.md        # Spacing scale
+│   │   └── typography.md     # Typography system
+│   ├── patterns/            # Ready-to-use component patterns
+│   │   └── index.md         # Component code snippets
+│   └── guidelines/          # Implementation guidelines
+│       └── liquid-glass.md # Full Liquid Glass implementation
+├── references/               # Quick reference materials
+│   └── quick-reference.md   # Condensed cheat sheet
+├── codebases/                 # Implementation codebases
+│   └── mockup.md            # Reference to /home/ubuntu/mockup/
+├── history/                   # Change documentation
+└── notes/                     # Scratch space
+```
 
-## Design System Documentation
+---
 
-The `resources/` directory contains design system documentation:
+## Design System (Primary Source)
 
-> **⚠️ Primary Source: [general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]]) is the most authoritative design reference. When making any design decision, consult this document first. If guidance conflicts between documents, `general-design-guidelines.md` takes precedence.**
+> **⚠️ Primary Source: `design/principles/index.md` is the most authoritative design reference. When making any design decision, consult this document first.**
 
-| Document | Description |
-|----------|-------------|
-| **[general-design-guidelines.md](resources/general-design-guidelines.md) ([[general-design-guidelines]])** | **🔑 PRIMARY — Core design principles, philosophy, and visual system. This is the source of truth for all design decisions.** |
-| [liquid-glass-design-system.md](resources/liquid-glass-design-system.md) ([[liquid-glass-design-system]]) | Apple Liquid Glass implementation guide with CSS tokens, component patterns, and accessibility guidelines |
-| [quick-reference.md](resources/quick-reference.md) ([[quick-reference]]) | Condensed cheat sheet for common patterns and tokens |
-| [color-palette.md](resources/color-palette.md) ([[color-palette]]) | Complete color system documentation |
-| [spacing-system.md](resources/spacing-system.md) ([[spacing-system]]) | Spacing scale and layout conventions |
-| [component-patterns.md](resources/component-patterns.md) ([[component-patterns]]) | Ready-to-use code snippets for components |
+### Quick Navigation
 
-These documents serve as the authoritative reference for the Santai UI/UX design system. **Always start with `general-design-guidelines.md` — it defines the overarching principles that all other documents support and elaborate on.**
+| Category | File | Purpose |
+|----------|------|---------|
+| **Philosophy** | `design/principles/index.md` | Core principles (simplicity, clarity, consistency) |
+| **Liquid Glass** | `design/principles/liquid-glass.md` | The 6 Liquid Glass rules |
+| **Implementation** | `design/guidelines/liquid-glass.md` | Full component implementation |
+| **Tokens** | `design/tokens/` | All CSS tokens (colors, spacing, typography, glass) |
+| **Patterns** | `design/patterns/index.md` | Ready-to-use code snippets |
+| **Cheat Sheet** | `references/quick-reference.md` | Quick lookup for common patterns |
 
-### Codebase References
+---
 
-The `codebases/` directory contains references to implementations:
+## AI Agent Vibe Coding Instructions
 
-- [mockup.md](codebases/mockup.md) ([[mockup]]) - Reference to `/home/ubuntu/mockup/` containing the working Liquid Glass implementation
+When building UI with this design system, AI agents should:
+
+### 1. Read Before Coding
+
+Start by reading these files:
+- `design/principles/index.md` — Core design philosophy
+- `design/principles/liquid-glass.md` — The 6 Liquid Glass principles
+- `references/quick-reference.md` — Keep this open for quick lookups
+
+### 2. Use Tokens, Don't Hardcode
+
+Always use CSS tokens:
+```css
+/* Good */
+background: var(--glass-bg);
+border-radius: var(--radius-xl);
+
+/* Bad */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 20px;
+```
+
+### 3. Golden Rules for Liquid Glass
+
+**DO:**
+- ✅ Use `rgba(255, 255, 255, 0.08)` for glass backgrounds
+- ✅ Apply `backdrop-filter: blur(56px) saturate(200%) brightness(1.1)`
+- ✅ Use `border-radius: 20px` for containers
+- ✅ Add inner highlights: `inset 0 0.5px 0 rgba(255, 255, 255, 0.5)`
+- ✅ Use fills (`rgba(255, 255, 255, 0.12)`) inside glass
+
+**DON'T:**
+- ❌ Stack glass inside glass (use fills instead)
+- ❌ Use heavy borders
+- ❌ Apply blur to modal backgrounds
+- ❌ Use opaque surfaces
+- ❌ Sharp corners
+
+### 4. Common Pattern
+
+```css
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(56px) saturate(200%) brightness(1.1);
+  -webkit-backdrop-filter: blur(56px) saturate(200%) brightness(1.1);
+  border: 0.5px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06), inset 0 0.5px 0 rgba(255, 255, 255, 0.5);
+  padding: 16px;
+}
+```
+
+### 5. Accessibility
+
+- Support `prefers-reduced-motion`
+- Ensure sufficient contrast
+- Support keyboard navigation
+
+### Full Instructions
+
+See `references/vibe-coding.md` for complete vibe coding workflow.
+
+---
 
 ## Pre-commit Hooks
 
@@ -51,3 +131,11 @@ The `notes/` directory is for general notes and scratch space:
 - Use `.md` or `.txt` files
 - Name files descriptively (e.g., `meeting-notes.md`, `ideas.txt`)
 - Notes are displayed with previews in the dashboard
+
+---
+
+## Codebase References
+
+The `codebases/` directory contains references to implementations:
+
+- [mockup.md](codebases/mockup.md) ([[mockup]]) - Reference to `/home/ubuntu/mockup/` containing the working Liquid Glass implementation

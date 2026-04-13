@@ -1,6 +1,6 @@
-# Liquid Glass Quick Reference
+# Quick Reference
 
-Quick reference for the most common Liquid Glass patterns and tokens.
+Condensed cheat sheet for the most common Liquid Glass patterns and tokens.
 
 ## Glass Effect (One-liner)
 
@@ -110,8 +110,7 @@ padding: 10px 24px;
 
 ## See Also
 
-- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all tokens
-- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
-- [Color Palette](color-palette.md) ([[color-palette]]) — Complete color system
-- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
-- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets
+- [Liquid Glass Guidelines](../../design/guidelines/liquid-glass.md) — Full implementation guide
+- [Design Principles](../../design/principles/) — Core design philosophy
+- [Tokens](../../design/tokens/) — All CSS tokens
+- [Component Patterns](../../design/patterns/) — Ready-to-use code snippets

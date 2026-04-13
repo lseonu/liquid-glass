@@ -1,8 +1,8 @@
-# Color Palette
+# Color Tokens
 
 Color system for Santai's Liquid Glass UI.
 
-## Primary Colors
+## Base Colors
 
 ### Background
 
@@ -42,7 +42,9 @@ Color system for Santai's Liquid Glass UI.
 | `--color-sidebar-hover` | `#F0F0F5` | Hover |
 | `--color-sidebar-active` | `#E8E8F0` | Active |
 
-## Glass-Specific Colors
+---
+
+## Glass Colors
 
 ### Glass Backgrounds
 
@@ -86,6 +88,8 @@ background: rgba(0, 0, 0, 0.2);
 background: rgba(0, 0, 0, 0.3);
 ```
 
+---
+
 ## Usage Guidelines
 
 ### Accent Color Rules
@@ -110,6 +114,8 @@ background: rgba(0, 0, 0, 0.3);
 | Active/Selected | `--glass-bg-active` or `--glass-fill-active` |
 | Disabled | Reduced opacity (0.5) |
 
+---
+
 ## Dark Mode Considerations
 
 The Liquid Glass design works best with a light background. For dark mode:
@@ -119,10 +125,10 @@ The Liquid Glass design works best with a light background. For dark mode:
 - Maintain high contrast for text
 - Reduce highlight intensity
 
+---
+
 ## See Also
 
-- [Liquid Glass Design System](liquid-glass-design-system.md) ([[liquid-glass-design-system]]) — Full implementation guide with all CSS tokens
-- [General Design Guidelines](general-design-guidelines.md) ([[general-design-guidelines]]) — Core design principles
-- [Quick Reference](quick-reference.md) ([[quick-reference]]) — Condensed cheat sheet
-- [Spacing System](spacing-system.md) ([[spacing-system]]) — Spacing scale and layout conventions
-- [Component Patterns](component-patterns.md) ([[component-patterns]]) — Ready-to-use code snippets
+- [Glass Tokens](./glass.md) — Glass-specific effects and blur
+- [Liquid Glass Guidelines](../guidelines/liquid-glass.md) — Full implementation guide
+- [Quick Reference](../../references/quick-reference.md) — Condensed cheat sheet
