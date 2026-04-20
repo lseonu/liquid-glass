@@ -19,7 +19,7 @@ liquid-glass/
 │   ├── tokens/               # CSS tokens and variables
 │   │   ├── colors.md        # Color system
 │   │   ├── glass.md         # Glass-specific tokens
-│   │   ├── spacing.md        # Spacing scale
+│   │   ├── spacing.md        # Spacing scale 
 │   │   └── typography.md     # Typography system
 │   ├── patterns/            # Ready-to-use component patterns
 │   │   └── index.md         # Component code snippets
